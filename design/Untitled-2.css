@@ -1,0 +1,52 @@
+@media screen and (max-width:578px) {
+    body{
+        background-color: #fff;
+    }
+    main{
+        display: block;
+        justify-content: center;
+        align-items: center;
+    }
+    .container{
+        width: 400px;
+    height: 700px;
+   background: linear-gradient(
+   hsl(293, 100%, 63%), 
+   hsl(264, 100%, 61%));
+   
+   border-radius:0px 0px 350px 200px;
+   position:relative;
+   top: 0%;
+   right: 200px;
+}
+.sec-one{
+    position: absolute;
+    top: 80px;
+    left: 50px;
+    
+}
+.sec-two{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    z-index: 0;
+ margin: 50px;
+ padding: 50px;
+    text-align: center;
+}
+.Simple{
+    font-size: 40px;
+    color: hsl(271, 36%, 24%);
+    margin-bottom: 15px;
+}
+.main-para{
+    font-size: 16px;
+    color: hsl(270, 7%, 64%) ;
+    width: 320px;
+   text-align: center;
+}
+
+
+    
+}
